@@ -1,0 +1,25 @@
+ID		Print Status	Design Status	Estimate Filament	GCODE FINAL READY	FilamentSetting	PrintTemp First layer	Print Temp	Fan On After Layer	Infill	Print Time	Support	Overhang Threshold	Enforce Support for the first x layers	Contact Z Distance	Pattern	Pattern Spacing	Pattern Angle	Interface layers	Interface Pattern Spacing	Don't Support Bridges	Notes
+ZTOP	Z-Axis Top	Success	Complete	5200	YES	_TGEAR	210	210	1	20% Hex	2.5 hours	Yes	0	0	0.2	pillars	2.5	0	3	0	checked	NOTE: SLOWED DOWN BIDGING SPEED and FAN ALWAYS ON
+ZTOP_W	Z-Axis Top with wiring pass through holes	Success	Complete	5200	YES	_TGEAR	210	210	1	20% Hex	2.5 hours	Yes	0	0	0.2	pillars	2.5	0	3	0	checked	NOTE: SLOWED DOWN BIDGING SPEED and FAN ALWAYS ON
+ZBOT	Z-Axis Bottom with Integrated Pan/Tilt Attachment	Success	Complete	9500	YES	_TGEAR	210	210	1	25% Hex	4.5 hours	Yes	0	0	0.2	pillars	2.5	0	3	0	checked	
+PMOT	Pan/Tilt Base with Motor Mount and Shaft	Success	Complete	15244	YES	_TGEAR	210	210	1	15% Hex	8 hours	None										
+PGEAR	Large Pan Gear with Outer Carriage	Success	Complete	17000	YES	_TGEAR	210	210	1	10% Hex	7.5 hours	Yes	1	0	0.2	pillars	2.5	0	3	0	checked	NOTE: SLOWED DOWN BIDGING SPEED and FAN ALWAYS ON
+F_PGEAR	Large Pan Gear with Outer Carriage (Fine Toothed)	Success	Complete	17700	YES	_TGEAR	210	210	1	10% Hex	7.5 hours	Yes	1	0	0.2	pillars	2.5	0	3	0	checked	
+SGEAR	Pan Small Gear with Keyed Shaft	Success	Complete	800	YES	_TGEAR	210	210	1	20% Hex	.33 hours	None										
+SGEAR	Tilt Small Gear with Keyed Shaft	Success	Complete	800	YES	_TGEAR	210	210	1	20% Hex	.33 hours	None										
+F_SGEAR	Tilt Small Gear with Keyed Shaft (Fine Tooth)	Success	Complete		YES	_TGEAR	210	210	1													
+OARM	Outer Arm	Success	Complete	10000	YES	_TGEAR	210	210	1	15% Hex	4 hours	Yes	0	0	0.2	pillars	2.5	0	3	0	checked	
+OARMM	Outer Arm with Motor Mount	Success	Complete	13000	YES	_TGEAR	210	210	1	15% Hex	5.5 hours	Yes	0	0	0.2	pillars	2.5	0	3	0	checked	NOTE: SLOWED DOWN BIDGING SPEED and FAN ALWAYS ON
+TGEAR	Inner to Outer Arm Connector with Large Tilt Gear 	Success	Complete	8500	YES	_TGEAR	210	210	1	10% Hex	4.5 hours	Yes	0	0	0.2	pillars	2.5	0	3	0	checked	NOTE: SLOWED DOWN BIDGING SPEED and FAN ALWAYS ON starting after layer 1 also increase temp to 210
+F_TGEAR	Inner to Outer Arm Connector with Large Tilt Gear (Fine Tooth)	Success	Complete	9100	YES	_TGEAR	210	210	1	10% Hex	4.5 Hours											
+ACON	Inner to Outer Arm Connector	Success	Complete	3000	YES	_TGEAR	210	210	1	15% Hex	1.5 hours	Yes	0	0	0.2	pillars	2.5	0	3	0	checked	
+IARM	Sliding Inner Arm	Success	Complete	4500	YES	_TGEAR	210	210	1	15% Hex	2.5 hours	None										
+IARM	Sliding Inner Arm	Success	Complete	4500	YES	_TGEAR	210	210	1	15% Hex	2.5 hours	None										
+CPLAT	Inner Carriage / Camera Platform	Success	Complete	6500	YES	_TGEAR	210	210	1	10% Hex	3 hours	None										
+SPCRS	"Spacers,(#1-Tilt: 30mm&45mm)(#2-Pan: 25.5mm&31mm)"	Success	Complete	5500	YES	_TGEAR	210	210	1	10% Hex	5 hours	None										FAN ALWAYS ON starting after layer 1 also increase temp to 210
+F_SPCRS	Spacers for Fine Toothed Pan gear (#1-Tilt: 30mm&45mm)(#2-Pan: 20.3mm&25.8mm) 	Success	Complete	5100	YES	_TGEAR	210	210	1	10% Hex	4.5 hours	None										FAN ALWAYS ON starting after layer 1 also increase temp to 210
+	Nut Block																					
+	XZ Plate Spacers																					
+	Z Wiring and Internal Support																					
+	M8x2x35 Screw																					
+	M8x2 Nut																					
